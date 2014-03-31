@@ -14,13 +14,14 @@
 		EB02715518E921B0005CAC1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02715418E921B0005CAC1C /* main.m */; };
 		EB02715918E921B0005CAC1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02715818E921B0005CAC1C /* AppDelegate.m */; };
 		EB02715C18E921B0005CAC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB02715A18E921B0005CAC1C /* Main.storyboard */; };
-		EB02715F18E921B0005CAC1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02715E18E921B0005CAC1C /* ViewController.m */; };
 		EB02716118E921B0005CAC1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB02716018E921B0005CAC1C /* Images.xcassets */; };
 		EB02716818E921B0005CAC1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB02716718E921B0005CAC1C /* XCTest.framework */; };
 		EB02716918E921B0005CAC1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB02714818E921B0005CAC1C /* Foundation.framework */; };
 		EB02716A18E921B0005CAC1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB02714C18E921B0005CAC1C /* UIKit.framework */; };
 		EB02717218E921B0005CAC1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB02717018E921B0005CAC1C /* InfoPlist.strings */; };
 		EB02717418E921B0005CAC1C /* delegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02717318E921B0005CAC1C /* delegateExampleTests.m */; };
+		EB02718018E92385005CAC1C /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02717F18E92385005CAC1C /* MainVC.m */; };
+		EB02718318E923AF005CAC1C /* EditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02718218E923AF005CAC1C /* EditVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		EB02715718E921B0005CAC1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB02715818E921B0005CAC1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB02715B18E921B0005CAC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB02715D18E921B0005CAC1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB02715E18E921B0005CAC1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB02716018E921B0005CAC1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB02716618E921B0005CAC1C /* delegateExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegateExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB02716718E921B0005CAC1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EB02716F18E921B0005CAC1C /* delegateExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "delegateExampleTests-Info.plist"; sourceTree = "<group>"; };
 		EB02717118E921B0005CAC1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB02717318E921B0005CAC1C /* delegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateExampleTests.m; sourceTree = "<group>"; };
+		EB02717E18E92385005CAC1C /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		EB02717F18E92385005CAC1C /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		EB02718118E923AF005CAC1C /* EditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditVC.h; sourceTree = "<group>"; };
+		EB02718218E923AF005CAC1C /* EditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +115,14 @@
 		EB02714E18E921B0005CAC1C /* delegateExample */ = {
 			isa = PBXGroup;
 			children = (
-				EB02715718E921B0005CAC1C /* AppDelegate.h */,
-				EB02715818E921B0005CAC1C /* AppDelegate.m */,
 				EB02715A18E921B0005CAC1C /* Main.storyboard */,
-				EB02715D18E921B0005CAC1C /* ViewController.h */,
-				EB02715E18E921B0005CAC1C /* ViewController.m */,
+				EB02717D18E921CA005CAC1C /* Delegate */,
 				EB02716018E921B0005CAC1C /* Images.xcassets */,
 				EB02714F18E921B0005CAC1C /* Supporting Files */,
+				EB02717E18E92385005CAC1C /* MainVC.h */,
+				EB02717F18E92385005CAC1C /* MainVC.m */,
+				EB02718118E923AF005CAC1C /* EditVC.h */,
+				EB02718218E923AF005CAC1C /* EditVC.m */,
 			);
 			path = delegateExample;
 			sourceTree = "<group>";
@@ -150,6 +154,15 @@
 				EB02717018E921B0005CAC1C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB02717D18E921CA005CAC1C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EB02715718E921B0005CAC1C /* AppDelegate.h */,
+				EB02715818E921B0005CAC1C /* AppDelegate.m */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB02715F18E921B0005CAC1C /* ViewController.m in Sources */,
+				EB02718018E92385005CAC1C /* MainVC.m in Sources */,
 				EB02715918E921B0005CAC1C /* AppDelegate.m in Sources */,
+				EB02718318E923AF005CAC1C /* EditVC.m in Sources */,
 				EB02715518E921B0005CAC1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

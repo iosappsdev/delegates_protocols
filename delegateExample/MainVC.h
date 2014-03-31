@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainVC.h
 //  delegateExample
 //
 //  Created by Ricardo Ruiz on 3/30/14.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+//Import DetailVC
+#import "EditVC.h"
 
-@interface ViewController : UIViewController
+@interface MainVC : UIViewController
+@property (nonatomic,strong) EditVC *edit_VC;
 
 @end
